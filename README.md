@@ -2,7 +2,9 @@
 
 Text-based GTD in Obsidian.
 
-[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" width="100">](https://www.buymeacoffee.com/larslockefeer)
+<a href="https://www.buymeacoffee.com/mrjackphil"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=mrjackphil&button_colour=434242&font_colour=ffffff&font_family=Inter&outline_colour=ffffff&coffee_colour=FFDD00"></a>
+
+<a href="https://www.patreon.com/bePatron?u=2290924" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
 ### Features
 - Aggregates all outstanding TODOs in your vault and lists them in a single view

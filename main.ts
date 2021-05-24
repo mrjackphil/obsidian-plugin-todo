@@ -1,4 +1,4 @@
-import { App, Plugin, PluginManifest, TFile, WorkspaceLeaf } from 'obsidian';
+import {App, Notice, Plugin, PluginManifest, TFile, WorkspaceLeaf} from 'obsidian';
 import { VIEW_TYPE_TODO } from './constants';
 import { TodoItemView, TodoItemViewProps } from './ui/TodoItemView';
 import { TodoItem, TodoItemStatus } from './model/TodoItem';
@@ -20,7 +20,7 @@ export default class TodoPlugin extends Plugin {
         todos: todos,
         openFile: (filePath: string) => {
           const file = this.app.vault.getAbstractFileByPath(filePath) as TFile;
-          this.app.workspace.splitActiveLeaf().openFile(file);
+          this.app.workspace.activeLeaf.openFile(file, { active: true });
         },
         toggleTodo: (todo: TodoItem, newStatus: TodoItemStatus) => {
           this.todoIndex.setStatus(todo, newStatus);
